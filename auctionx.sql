@@ -66,7 +66,7 @@ DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `uId` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id',
   `username` varchar(50) NOT NULL COMMENT '用户名',
-  `password` varchar(20) NOT NULL COMMENT '密码',
+  `password` varchar(20) NOT NULL COMMENT '密码.',
   `cardNum` varchar(30) DEFAULT NULL COMMENT '工号',
   `tel` varchar(20) DEFAULT NULL COMMENT '电话',
   PRIMARY KEY (`uId`)
