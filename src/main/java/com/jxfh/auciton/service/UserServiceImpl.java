@@ -17,14 +17,20 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User userLogin(String username, String password) {
-        User u= (User) userDao.userLogin(username,password);
-        if (u!=null){
-            //使用request对象的getSession()获取session
-           // HttpSession session = request.getSession();
-            //session.setAttribute();
-            return u;
+        User user = userDao.userLogin(username, password);
+        return user;
+    }
+
+    @Override
+    public int addUser(User user) {
+        //用户名是否存在 存在的话返回0 及失败
+        int countUsername = userDao.countUsername(user.getUsername());
+        if (countUsername > 0) {
+            return 0;
         }
-        return null;
+        //注册用户
+        int i = userDao.addUser(user);
+        return i;
     }
 
 

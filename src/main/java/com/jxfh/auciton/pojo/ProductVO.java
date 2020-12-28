@@ -1,12 +1,16 @@
 package com.jxfh.auciton.pojo;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.util.Date;
 import java.util.List;
 
-public class Computer {
-
-    private int cId;
+/**
+ * Created by pc on 2020/12/28.
+ * 商品详情
+ */
+public class ProductVO {
+    private String cId;
     private String cName;
     @JsonFormat(shape = com.fasterxml.jackson.annotation.JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd", timezone =
             "GMT+8")
@@ -17,18 +21,16 @@ public class Computer {
     private Integer startPrice;
     private String remark;
     private String imgUrl;
-    private int isAuction;//是否可竞拍
-    //竞拍人最高者 可能多人竞拍价格一样所以用集合
-    List<User> userList;
+    private List<AuctionVO> list;
 
-    public Computer() {
+    public ProductVO() {
     }
 
-    public int getcId() {
+    public String getcId() {
         return cId;
     }
 
-    public void setcId(int cId) {
+    public void setcId(String cId) {
         this.cId = cId;
     }
 
@@ -46,6 +48,14 @@ public class Computer {
 
     public void setStartDate(Date startDate) {
         this.startDate = startDate;
+    }
+
+    public Date getCutOffDate() {
+        return cutOffDate;
+    }
+
+    public void setCutOffDate(Date cutOffDate) {
+        this.cutOffDate = cutOffDate;
     }
 
     public Integer getStartPrice() {
@@ -72,27 +82,11 @@ public class Computer {
         this.imgUrl = imgUrl;
     }
 
-    public int getIsAuction() {
-        return isAuction;
+    public List<AuctionVO> getList() {
+        return list;
     }
 
-    public void setIsAuction(int isAuction) {
-        this.isAuction = isAuction;
-    }
-
-    public List<User> getUserList() {
-        return userList;
-    }
-
-    public void setUserList(List<User> userList) {
-        this.userList = userList;
-    }
-
-    public Date getCutOffDate() {
-        return cutOffDate;
-    }
-
-    public void setCutOffDate(Date cutOffDate) {
-        this.cutOffDate = cutOffDate;
+    public void setList(List<AuctionVO> list) {
+        this.list = list;
     }
 }

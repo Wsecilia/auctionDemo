@@ -1,26 +1,19 @@
 package com.jxfh.auciton.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public class User {
 
     private int uId;
     private String username;
+    @JsonIgnore
     private String password;
-    private int cardId;
     private String tel;
 
     public User() {
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "uId=" + uId +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", cardId=" + cardId +
-                ", tel='" + tel + '\'' +
-                '}';
-    }
+
 
     public int getuId() {
         return uId;
@@ -46,14 +39,6 @@ public class User {
         this.password = password;
     }
 
-    public int getCardId() {
-        return cardId;
-    }
-
-    public void setCardId(int cardId) {
-        this.cardId = cardId;
-    }
-
     public String getTel() {
         return tel;
     }
@@ -61,4 +46,6 @@ public class User {
     public void setTel(String tel) {
         this.tel = tel;
     }
+
+
 }

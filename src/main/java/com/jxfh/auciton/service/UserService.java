@@ -8,4 +8,7 @@ public interface UserService  {
      * 登录
      */
     User userLogin(String username, String password);
+
+    //注册
+    int addUser(User user);
 }
