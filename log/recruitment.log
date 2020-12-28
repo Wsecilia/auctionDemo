@@ -1,0 +1,26 @@
+15:29:54.453 INFO  [restartedMain] c.h.r.WinecultureApplication - Starting WinecultureApplication on wangsai with PID 24252 (D:\ideaPro\recruitment\target\classes started by wangsai in C:\DATA\ideaProject\aucitonDemo)
+15:29:54.454 DEBUG [restartedMain] c.h.r.WinecultureApplication - Running with Spring Boot v1.5.11.RELEASE, Spring v4.3.15.RELEASE
+15:29:54.454 INFO  [restartedMain] c.h.r.WinecultureApplication - The following profiles are active: dev
+15:31:58.861 INFO  [restartedMain] c.h.r.WinecultureApplication - Starting WinecultureApplication on wangsai with PID 9460 (D:\ideaPro\recruitment\target\classes started by wangsai in C:\DATA\ideaProject\aucitonDemo)
+15:31:58.863 DEBUG [restartedMain] c.h.r.WinecultureApplication - Running with Spring Boot v1.5.11.RELEASE, Spring v4.3.15.RELEASE
+15:31:58.863 INFO  [restartedMain] c.h.r.WinecultureApplication - The following profiles are active: dev
+15:34:19.118 INFO  [restartedMain] c.h.r.WinecultureApplication - Starting WinecultureApplication on wangsai with PID 14248 (D:\ideaPro\recruitment\target\classes started by wangsai in C:\DATA\ideaProject\aucitonDemo)
+15:34:19.119 DEBUG [restartedMain] c.h.r.WinecultureApplication - Running with Spring Boot v1.5.11.RELEASE, Spring v4.3.15.RELEASE
+15:34:19.119 INFO  [restartedMain] c.h.r.WinecultureApplication - The following profiles are active: dev
+15:34:38.365 INFO  [restartedMain] c.h.r.WinecultureApplication - Starting WinecultureApplication on wangsai with PID 17860 (D:\ideaPro\recruitment\target\classes started by wangsai in C:\DATA\ideaProject\aucitonDemo)
+15:34:38.366 DEBUG [restartedMain] c.h.r.WinecultureApplication - Running with Spring Boot v1.5.11.RELEASE, Spring v4.3.15.RELEASE
+15:34:38.367 INFO  [restartedMain] c.h.r.WinecultureApplication - The following profiles are active: dev
+15:37:55.301 INFO  [restartedMain] c.h.r.WinecultureApplication - Starting WinecultureApplication on wangsai with PID 128 (D:\ideaPro\recruitment\target\classes started by wangsai in C:\DATA\ideaProject\aucitonDemo)
+15:37:55.302 DEBUG [restartedMain] c.h.r.WinecultureApplication - Running with Spring Boot v1.5.11.RELEASE, Spring v4.3.15.RELEASE
+15:37:55.302 INFO  [restartedMain] c.h.r.WinecultureApplication - The following profiles are active: dev
+15:40:39.914 INFO  [restartedMain] c.h.r.WinecultureApplication - Starting WinecultureApplication on wangsai with PID 992 (D:\ideaPro\recruitment\target\classes started by wangsai in C:\DATA\ideaProject\aucitonDemo)
+15:40:39.914 DEBUG [restartedMain] c.h.r.WinecultureApplication - Running with Spring Boot v1.5.11.RELEASE, Spring v4.3.15.RELEASE
+15:40:39.915 INFO  [restartedMain] c.h.r.WinecultureApplication - The following profiles are active: dev
+15:51:22.719 INFO  [restartedMain] c.h.r.WinecultureApplication - Starting WinecultureApplication on wangsai with PID 12684 (D:\ideaPro\recruitment\target\classes started by wangsai in C:\DATA\ideaProject\aucitonDemo)
+15:51:22.720 DEBUG [restartedMain] c.h.r.WinecultureApplication - Running with Spring Boot v1.5.11.RELEASE, Spring v4.3.15.RELEASE
+15:51:22.720 INFO  [restartedMain] c.h.r.WinecultureApplication - The following profiles are active: dev
+15:51:31.220 INFO  [restartedMain] c.h.r.WinecultureApplication - Started WinecultureApplication in 8.894 seconds (JVM running for 9.846)
+16:16:01.388 INFO  [restartedMain] c.h.r.WinecultureApplication - Starting WinecultureApplication on wangsai with PID 20688 (D:\ideaPro\recruitment\target\classes started by wangsai in C:\DATA\ideaProject\aucitonDemo)
+16:16:01.390 DEBUG [restartedMain] c.h.r.WinecultureApplication - Running with Spring Boot v1.5.11.RELEASE, Spring v4.3.15.RELEASE
+16:16:01.391 INFO  [restartedMain] c.h.r.WinecultureApplication - The following profiles are active: dev
+16:16:11.924 INFO  [restartedMain] c.h.r.WinecultureApplication - Started WinecultureApplication in 10.88 seconds (JVM running for 12.16)
